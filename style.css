@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #cfd5e6, #dbeafe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.container {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* 🔥 IMPORTANT FIX */
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* INPUT BOX */
+.input-box {
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* INPUT FIELD */
+.input-box input {
+    width: 100%;
+    box-sizing: border-box;   /* 🔥 main fix */
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 10px 40px;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+}
+
+/* LEFT ICON */
+.input-box i:first-child {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* EYE ICON */
+.togglePassword {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #aaa;
+}
+
+.togglePassword:hover {
+    color: #555;
+}
+
+/* BUTTON */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #7b7be6;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* TEXT */
+.or {
+    margin: 15px 0;
+}
+
+.recover {
+    text-align: right;
+    color: #7b7be6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* SOCIAL */
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social i {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #7b7be6;
+    transition: 0.3s;
+}
+
+.social i:hover {
+    background: #f3f4f6;
+}
+
+/* LINKS */
+.link span {
+    color: #7b7be6;
+    cursor: pointer;
+}
